@@ -1,0 +1,1 @@
+import "./globals.css"; export const metadata={title:"VentureLens — Know what to validate before you build",description:"Venture stress-testing workspace"}; export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}
