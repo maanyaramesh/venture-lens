@@ -31,6 +31,7 @@ function Score({ label, value }: { label: string; value: number }) {
         <span>{label}</span>
         <b className="text-[#171713]">{value}</b>
       </div>
+
       <div className="bar mt-2">
         <i style={{ width: `${value}%` }} />
       </div>
@@ -277,7 +278,7 @@ export default function Home() {
               setIdea("");
               setStressTest(null);
             }}
-            className="mt-4 text-xs text-[#aaa9a1]"
+            className="mt-4 ml-14 text-xs text-[#aaa9a1]"
           >
             + Analyze another
           </button>
@@ -327,6 +328,7 @@ export default function Home() {
               <span className="text-[88px] leading-[.7] font-black">
                 {data.score}
               </span>
+
               <span className="text-xs text-[#77736a] pb-1">
                 /100
               </span>
